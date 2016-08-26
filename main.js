@@ -1,16 +1,16 @@
 var n=prompt('Ingrese numero:');
-if (2<=(n % 2 == 0)<5) {
+if (n % 2 == 0 && n>=2 && n<5) {
  	document.write("GOOD!");
 }
 
-else if (6<=(n % 2 == 0)<=20){
+else if (n % 2 == 0 && n>=6 && n<=20){
 	document.write("Great!");
 }
 
-else if ((n % 2 == 0)>20){
+else if (n % 2 == 0 && n>20){
 	document.write("Perfect!");
 }
 
 else {
-document.write("Odd!(impar)");
+	document.write("Odd!");
 }
